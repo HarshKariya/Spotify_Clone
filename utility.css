@@ -1,0 +1,97 @@
+.border {
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.rounded {
+    border-radius: 7px;
+}
+
+.m-1 {
+    margin: 5px;
+
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+/* For Chrome, Edge, Safari */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+    /* Dark track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+    /* Medium gray thumb */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+    /* Lighter on hover */
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #555 #1a1a1a;
+}
+
+.songlist {
+    max-height: 400px;
+    /* or whatever fits your layout */
+    overflow-y: auto;
+    padding-right: 8px;
+    /* to avoid scroll bar overlapping content */
+}
+
+/* Scrollbar styling for WebKit (Chrome, Edge, Safari) */
+.songlist::-webkit-scrollbar {
+    width: 8px;
+}
+
+.songlist::-webkit-scrollbar-track {
+    background: #1e1e1e;
+    /* dark background */
+    border-radius: 5px;
+}
+
+.songlist::-webkit-scrollbar-thumb {
+    background-color: #444;
+    /* dark grey thumb */
+    border-radius: 5px;
+}
+
+.songlist::-webkit-scrollbar-thumb:hover {
+    background-color: #666;
+}
+
+/* Optional: scrollbar styles for Firefox */
+.songlist {
+    scrollbar-color: #444 #1e1e1e;
+    scrollbar-width: thin;
+}
